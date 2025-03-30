@@ -16,6 +16,8 @@ public class Matches {
                 turn = !turn;
                 count -= matches;
                 System.out.println("Остаток спичек: " + count);
+            } else {
+                System.out.println("Некорректный ввод");
             }
         }
         if (!turn) {
