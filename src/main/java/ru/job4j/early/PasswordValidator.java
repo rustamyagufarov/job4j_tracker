@@ -34,7 +34,6 @@ public class PasswordValidator {
                     "Password should be length [8, 32]"
             );
         }
-
         boolean hasUpCase = false;
         boolean hasLowCase = false;
         boolean hasDigit = false;
